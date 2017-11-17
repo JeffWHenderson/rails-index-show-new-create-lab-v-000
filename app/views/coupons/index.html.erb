@@ -1,5 +1,6 @@
 Hello INDEX PAGE
 
 <% @coupons.each do |coupon| %>
-  <p> <%= coupon.store  %> <%= link_to coupon.coupon_code, coupon_path(coupon) %></p> 
+  <div><%= link_to coupon.store, coupon_path(coupon) %></div>
+  <div><%= link_to coupon.coupon_code, coupon_path(coupon) %></div> 
 <% end %>
