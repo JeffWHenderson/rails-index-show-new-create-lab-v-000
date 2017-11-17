@@ -8,7 +8,7 @@ class CouponsController < ApplicationController
       end
   
       def create_table
-        #the new form should be hooked into this and create a new instance of table and i would guess redirect to show
+        raise params.inspect
       end
 
   def show
