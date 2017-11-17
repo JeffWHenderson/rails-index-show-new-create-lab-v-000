@@ -7,7 +7,7 @@ class CouponsController < ApplicationController
       def new
       end
   
-      def create_table
+      def create
         raise params.inspect
       end
 
